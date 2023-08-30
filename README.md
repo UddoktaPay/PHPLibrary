@@ -11,7 +11,7 @@ The UddoktaPay PHP Library allows you to seamlessly integrate the UddoktaPay pay
   - [Initializing the Library](#initializing-the-library)
   - [Initializing a Payment](#initializing-a-payment)
   - [Verifying a Payment](#verifying-a-payment)
-  - [Handling IPN Notifications](#handling-ipn-notifications)
+  - [Handling IPN Notifications](#handling-ipn-notifications-optional)
 - [Examples](#examples)
 - [License](#license)
 
@@ -68,7 +68,7 @@ try {
 ```
 
 
-## Available API Types
+#### Available API Types
 
 The `initPayment` method allows you to specify the API type as the second parameter. The available options are:
 
