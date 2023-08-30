@@ -1,8 +1,8 @@
 <?php
 require_once 'UddoktaPay.php';
 
-$apiKey = "your_api_key";
-$apiBaseURL = "https://pay.uddoktapay.com/api/checkout-v2";
+$apiKey = "982d381360a69d419689740d9f2e26ce36fb7a50";
+$apiBaseURL = "https://sandbox.uddoktapay.com/api/checkout-v2";
 $uddoktaPay = new UddoktaPay($apiKey, $apiBaseURL);
 
 try {
