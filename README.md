@@ -12,8 +12,7 @@ The UddoktaPay PHP Library allows you to seamlessly integrate the UddoktaPay pay
   - [Initializing a Payment](#initializing-a-payment)
   - [Verifying a Payment](#verifying-a-payment)
   - [Handling IPN Notifications](#handling-ipn-notifications-optional)
-- [Examples](#examples)
-- [License](#license)
+- [Notes](#notes)
 
 ## Installation
 
@@ -132,7 +131,7 @@ try {
 
 ## Notes
 
-- Replace `"your_api_key"` with your actual API key.
+- Replace `"API KEY"` with your actual API key.
 - Adjust the request data and other details according to your project requirements.
 - The `metadata` field is dynamic; you can add multiple key-value pairs as needed.
 - Make sure to handle errors using try-catch blocks as demonstrated above.
