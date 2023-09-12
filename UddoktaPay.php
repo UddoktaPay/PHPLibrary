@@ -104,8 +104,8 @@ class UddoktaPay
 
     private function validateApiResponse($response, $errorMessage)
     {
-        if (!isset($response['status'], $response['payment_url'])) {
-            $message = isset($response['message']) ? $response['message'] : $errorMessage;
+        if (!isset($response['payment_url'])) {
+            $message = isset($response['error']) ? $response['error'] : $errorMessage;
             throw new Exception($message);
         }
     }
